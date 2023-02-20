@@ -8,15 +8,32 @@
 </head>
 <body>
   <div id="root">
+<<<<<<< HEAD
+    <div>
+      <h2>밀키스가격</h2>
+      <p>900</p>
+    </div>
+    <div>
+      <h2>코카콜라가격</h2>
+      <p>2800</p>
+    </div>
+    <div>
+      <h2>원장님조르기</h2>
+      <p>0</p>
+    </div>
+    <div></div>
+    <div></div>
+=======
     <div>파란색</div>
     <div>연회색</div>
     <div>흰색</div>
-    <div>파란색(섹션)123121231231233</div>
+    <div>파란색(섹션)</div>
     <div onclick="alert('ㅅㅂ')">진회색</div>
+>>>>>>> 91177aa4fa35906d6e9801d9473c7f74fb3d73df
   </div>
   <script>
-  document.getElementById('root').style.backgroundColor='blue';
-  console.dir(document.getElementById('root'));
+  let coka = document.getElementsByTagName('h2')[1].nextElementSibling.innerHTML;
+  console.log(coka);
   </script>
 </body>
 </html>
